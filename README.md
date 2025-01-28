@@ -1,10 +1,12 @@
 This project focuses on building a personalized Movie Recommendation System to enhance user experience by suggesting movies based on their preferences. The system will utilize Collaborative Filtering, Content-Based Filtering, or a Hybrid Approach for generating recommendations. Data will be collected from sources like IMDb or TMDb and preprocessed for analysis. The project will feature user authentication, search filters, and a dashboard displaying recommended movies, ratings, and reviews.
+
 Domain
-•	Web Application Development
-•	Entertainment Industry
+=>Web Application Development
+=>Entertainment Industry
+
 Sub-Domain
-•	Recommendation Systems
-•	Collaborative Filtering
+=>Recommendation Systems
+=>Collaborative Filtering
 Features
 •	User Authentication and Profile Management:
            Secure login/signup and personalized profiles to store user preferences and watch history.
