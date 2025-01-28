@@ -34,21 +34,19 @@ Analyze movie attributes like genre, cast, director, and description to match th
 
 => PHP: Server-side functionality.
 
-=>phpMyAdmin: Database management.
-
 **Frontend**
 
 =>HTML/CSS: Layout and styling.
 
 =>JavaScript: Interactive elements.
 
+**Database**
+
 =>MySQL: Data storage for donors, hospitals, and appointments
 
 **Tools**
 
 =>XAMPP: Local development environment.
-
-=>Visual Studio Code: Code editor.
 
 **Implementation Steps**
 
