@@ -1,18 +1,18 @@
 This project focuses on building a personalized Movie Recommendation System to enhance user experience by suggesting movies based on their preferences. The system will utilize Collaborative Filtering, Content-Based Filtering, or a Hybrid Approach for generating recommendations. Data will be collected from sources like IMDb or TMDb and preprocessed for analysis. The project will feature user authentication, search filters, and a dashboard displaying recommended movies, ratings, and reviews.
 
-Domain
+**Domain**
 
 =>Web Application Development
 
 =>Entertainment Industry
 
-Sub-Domain
+**Sub-Domain**
 
 =>Recommendation Systems
 
 =>Collaborative Filtering
 
-Features
+**Features**
 
 =>User Authentication and Profile Management:
 
@@ -30,13 +30,13 @@ Analyze movie attributes like genre, cast, director, and description to match th
 
 =>Trending and Popular Movies: Highlight the most-watched and trending movies in real-time to keep users updated on the latest hits.
 
-Backend
+**Backend**
 
 => PHP: Server-side functionality.
 
 =>phpMyAdmin: Database management.
 
-Frontend
+**Frontend**
 
 =>HTML/CSS: Layout and styling.
 
@@ -44,13 +44,13 @@ Frontend
 
 =>MySQL: Data storage for donors, hospitals, and appointments
 
-Tools
+**Tools**
 
 =>XAMPP: Local development environment.
 
 =>Visual Studio Code: Code editor.
 
-Implementation Steps
+**Implementation Steps**
 
 =>Set up XAMPP and configure the server.
 
