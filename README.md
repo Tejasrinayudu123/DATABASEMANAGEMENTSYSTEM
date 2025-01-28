@@ -2,6 +2,7 @@ This project focuses on building a personalized Movie Recommendation System to e
 
 Domain
 =>Web Application Development
+
 =>Entertainment Industry
 
 Sub-Domain
