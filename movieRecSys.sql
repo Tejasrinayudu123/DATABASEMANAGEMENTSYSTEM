@@ -1,0 +1,39 @@
+create database movieRecSys;
+use movieRecSys;
+
+CREATE TABLE USERS
+(
+	UserID VARCHAR(40)	NOT NULL,
+	Name VARCHAR(40),
+	Email VARCHAR(40)	NOT NULL,
+	Age INT,
+	PRIMARY KEY(UserID)
+);
+
+CREATE TABLE RATINGS
+(
+	RatingID VARCHAR(40) NOT NULL,
+    UserID VARCHAR(40) NOT NULL,
+    MovieId VARCHAR(40) NOT NULL,
+	PRIMARY KEY(RatingID),
+    FOREIGN KEY(UserID) REFERENCES USERS(UserID)
+);
+
+CREATE TABLE MOVIES
+(
+	MovieID VARCHAR(40) NOT NULL,
+    Title VARCHAR(40),
+    Genre VARCHAR(40),
+    ReleaseYear INT(40)
+);
+
+CREATE TABLE WATCHLIST
+(
+	WatchlistID VARCHAR(40) NOT NULL,
+    UserID VARCHAR(40),
+    MovieID VARCHAR(40) NOT NULL,
+    AddedDate INT(50),
+    PRIMARY KEY(WatchlistID),
+    FOREIGN KEY(UserID) REFERENCES USERS(UserID)
+);
+
